@@ -13,6 +13,7 @@ find_package(nav_msgs)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetMultiPlan.srv"
+  "srv/GoToGoal.srv"
   DEPENDENCIES geometry_msgs nav_msgs
 )
 
